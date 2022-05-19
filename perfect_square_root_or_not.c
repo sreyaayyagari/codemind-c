@@ -10,8 +10,5 @@ int main()
         printf("True");
     }
     else
-    {
-        printf("False");
-    }
-    return 0;
+    printf("False");
 }
