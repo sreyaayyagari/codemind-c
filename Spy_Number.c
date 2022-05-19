@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+int main ()
 {
     int r,sum=0,p=1,n;
     scanf("%d",&n);
@@ -10,7 +10,7 @@ int main()
         p=p*r;
         n=n/10;
     }
-    if (sum==p)
+    if(sum==p)
     {
         printf("Spy Number");
     }
