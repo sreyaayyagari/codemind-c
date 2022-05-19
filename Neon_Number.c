@@ -1,4 +1,4 @@
- #include<stdio.h>
+#include<stdio.h>
 int main()
 {
     int n,sq,r,sum=0;
@@ -6,9 +6,9 @@ int main()
     sq=n*n;
     while(sq!=0)
     {
-       r=sq%10;
-       sum=sum+r;
-       sq=sq/10;
+        r=sq%10;
+        sum=sum+r;
+        sq=sq/10;
     }
     if(sum==n)
     {
@@ -16,8 +16,6 @@ int main()
     }
     else
     {
-        printf("Not Neon Number");
+      printf("Not Neon Number");
     }
-    
-    
 }
